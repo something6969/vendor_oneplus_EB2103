@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/*
+** Copyright (c) 2016-2050 OPPO Mobile Comm Corp., Ltd, All rights reserved.
+** OPPO Technologies Proprietary and Confidential.
+** The xml is for config game resolution.
+** For example scale 1.5 change 1080*1920 to 720*1280 (1080/720=1.5)
+** Author:xiaori.yuan@oppo.com
+*/
+-->
+<filter-conf>
+    <version>20211213</version>
+    <isOpen>1</isOpen>
+    <filter-name>multimedia_app_scale_list</filter-name>
+    <game>
+        <PackageName>com.imangi.templerun2</PackageName>
+        <scale>1.5</scale>
+    </game>
+    <game>
+        <PackageName>com.kiloo.subwaysurf</PackageName>
+        <scale>1.5</scale>
+    </game>
+    <game>
+        <PackageName>com.netease.dhxy.nearme.gamecenter</PackageName>
+        <scale>1.3333</scale>
+    </game>
+    <game>
+        <PackageName>com.cocos2d.fishingfun.nearme.gamecenter</PackageName>
+        <scale>1.333</scale>
+    </game>
+    <game>
+        <PackageName>org.cocos2d.fishingjoy3</PackageName>
+        <scale>1.333</scale>
+    </game>
+    <game>
+        <PackageName>org.cocos2dx.FishingJoy2</PackageName>
+        <scale>1.333</scale>
+    </game>
+    <game>
+        <PackageName>com.gbits.atm.nearme.gamecenter</PackageName>
+        <scale>1.3333</scale>
+    </game>
+    <game>
+        <PackageName>com.nextwave.wcc2</PackageName>
+        <scale>1.5</scale>
+    </game>
+    <hbm>
+        <hbmlevel>hbmlevel1</hbmlevel>
+        <hbmvalue>10000.0</hbmvalue>
+    </hbm>
+    <hbm>
+        <hbmlevel>hbmlevel2</hbmlevel>
+        <hbmvalue>20000.0</hbmvalue>
+    </hbm>
+    <hbm>
+        <hbmlevel>hbmlevel3</hbmlevel>
+        <hbmvalue>30000.0</hbmvalue>
+    </hbm>
+
+    <!--FengTianSi add for app reduce brightness feature-->
+    <appReduceBtnMethod>
+        <method>appReduceBtnMethod_01</method>
+        <appPkg>com.supercell.clashofclans</appPkg>
+        <appPkg>com.dts.freefireth</appPkg>
+        <appPkg>com.tencent.iglite</appPkg>
+        <appPkg>com.supercell.clashroyale</appPkg>
+        <appPkg>com.nautilus.RealCricket3D</appPkg>
+        <appPkg>com.nianticlabs.pokemongo</appPkg>
+        <appPkg>com.nekki.shadowfight3</appPkg>
+        <appPkg>com.nextwave.wcc2</appPkg>
+        <appPkg>com.microsoft.teams</appPkg>
+        <appPkg>tv.twitch.android.app</appPkg>
+        <appPkg>com.playrix.gardenscapes</appPkg>
+        <appPkg>com.mxtech.videoplayer.pro</appPkg>
+        <appPkg>com.vanced.android.youtube</appPkg>
+        <appPkg>jp.naver.line.android</appPkg>
+        <appPkg>com.tv.v18.viola</appPkg>
+        <appPkg>com.android.chrome</appPkg>
+        <appPkg>com.netflix.mediaclient</appPkg>
+        <appPkg>com.facebook.katana</appPkg>
+        <appPkg>com.zhiliaoapp.musically</appPkg>
+        <appPkg>com.mxtech.videoplayer.ad</appPkg>
+        <appPkg>com.whatsapp</appPkg>
+        <appPkg>com.google.android.youtube</appPkg>
+        <appPkg>com.instagram.android</appPkg>
+        <appPkg>com.tencent.ig</appPkg>
+        <appPkg>com.amazon.avod.thirdpartyclient</appPkg>
+        <appPkg>in.startv.hotstar</appPkg>
+        <appPkg>com.google.android.apps.maps</appPkg>
+        <appPkg>com.snapchat.android</appPkg>
+        <appPkg>com.activision.callofduty.shooter</appPkg>
+        <appPkg>com.gbwhatsapp</appPkg>
+        <appPkg>com.hulu.plus</appPkg>
+        <appPkg>jp.konami.pesam</appPkg>
+        <appPkg>com.playrix.homescapes</appPkg>
+        <appPkg>com.vkontakte.android</appPkg>
+        <appPkg>com.king.candycrushsodasaga</appPkg>
+        <appPkg>com.king.candycrushsaga</appPkg>
+        <appPkg>com.moonactive.coinmaster</appPkg>
+        <appPkg>com.waze</appPkg>
+        <appPkg>com.android.dialer</appPkg>
+        <appPkg>com.supercell.brawlstars</appPkg>
+        <appPkg>com.google.android.dialer</appPkg>
+        <appPkg>com.google.android.googlequicksearchbox</appPkg>
+        <appPkg>com.google.android.apps.messaging</appPkg>
+        <appPkg>com.amazon.mShop.android.shopping</appPkg>
+        <switch>1</switch>
+        <levels>346,638,1853,2047</levels>
+        <ratio>0.0,0.3,0.3,0.0</ratio>
+        <rate>0,0,0,0</rate>
+    </appReduceBtnMethod>
+    <backlightStat>
+        <appLevels>8,32,60,100,170,200,240,320,420,520,620,720,820,920,1023,1073,1123,1217,1294,2047</appLevels>
+    </backlightStat>
+
+    <temperaturelimitbtn>4095,4095,4095,2928,2344,1949,1705,1462,1220,977,734,487</temperaturelimitbtn>
+
+    <DarkEnvBrightnessBarLimitSupport>0</DarkEnvBrightnessBarLimitSupport>
+
+</filter-conf>

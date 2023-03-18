@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>20221116</version>
+    <toggle>1</toggle>
+    <features>
+
+        <feature name="BindCore" enable="1">
+            <!-- big core index, start from 0 -->
+            <bigcore_id>6</bigcore_id>
+            <bigcore_id>7</bigcore_id>
+        </feature>
+
+        <feature name="OplusDEE" enable="1">
+            <DC>enable</DC>
+            <application name="com.coloros.video">
+                <scene type="Application">
+                    <action>
+                        <mode>AD</mode>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.oneplus.camera">
+                <scene type="Application">
+                    <action>
+                        <mode>AD</mode>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.oneplus.gallery">
+                <scene type="Application">
+                    <action>
+                        <mode>AD</mode>
+                    </action>
+                </scene>
+            </application>
+        </feature>
+
+        <feature name="DispKeventThread" enable="1"/>
+
+        <feature name="hecate" enable="1"/>
+
+    </features>
+</filter-conf>

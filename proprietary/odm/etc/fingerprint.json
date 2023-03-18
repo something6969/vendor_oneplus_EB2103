@@ -1,0 +1,22 @@
+[
+    {
+        "project": "20814",
+        "name": "default",
+        "product": "OnePlusNordCE",
+        "device": "OnePlusNordCE",
+        "model": "EB2103",
+        "manufacturer": "OnePlus",
+        "brand": "OnePlus",
+        "first_api_level": "30"
+     },
+    {
+        "project": "20814",
+        "name": "eea",
+        "product": "OnePlusNordCE_EEA",
+        "device": "OnePlusNordCE",
+        "model": "EB2103",
+        "manufacturer": "OnePlus",
+        "brand": "OnePlus",
+        "first_api_level": "30"
+     }
+]
